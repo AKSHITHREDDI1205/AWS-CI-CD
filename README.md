@@ -1,25 +1,4 @@
-# Prerequisites
-#
-- JDK 17 
-- Maven 3.9 
-- MySQL 8
-
-# Technologies 
-- Spring MVC
-- Spring Security
-- Spring Data JPA
-- Maven
-- JSP
-- Tomcat
-- MySQL
-- Memcached
-- Rabbitmq
-- ElasticSearch
-# Database
-Here,we used Mysql DB 
-sql dump file:
-- /src/main/resources/db_backup.sql
-- db_backup.sql file is a mysql dump file.we have to import this dump to mysql db server
-- > mysql -u <user_name> -p accounts < db_backup.sql
-
+•	Implemented a complete CI/CD pipeline using AWS to automate the build, fetch, and deployment process for a web application.
+•	Utilized Bitbucket as the source code repository, AWS CodeBuild to build the application, and deployed it to Elastic Beanstalk.
+•	Configured AWS RDS as the database for the web application and leveraged AWS S3 for artifact storage and versioning.
 
